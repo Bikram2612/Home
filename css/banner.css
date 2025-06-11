@@ -1,0 +1,36 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  
+}
+.image-container img{
+    display: block ;
+    width: 100%;
+    height: auto;
+}
+
+.image-text {
+      position: absolute;
+      top: 30%; 
+      left: 5%; 
+      color: white;
+      font-size: 50px;
+    }
+.image-text-para{
+    position: absolute;
+    top: 43%; 
+    left: 5%; 
+    color: white;
+    font-size: 32px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+footer u{
+    color: black;
+}

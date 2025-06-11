@@ -1,0 +1,54 @@
+
+#navbar{
+    padding: 0px 52px;
+    background-color: #eff1f3;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 33px;
+    font-size: 20px;
+    font-family: 'Segoe UI', sans-serif;
+
+}
+.nav-left{
+    color: black;
+    font-weight: bold;
+}
+.nav-middle{
+    display: flex;
+    gap: 25px;
+}
+.nav-middle a{
+    text-decoration: none;
+    color: #7a7a7a;
+    
+}
+.nav-right{
+    display: flex;
+    gap: 25px;
+}
+.nav-right button{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 6px 11px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-size: 16px;
+}
+
+.nav-right button:hover{
+    background-color: rgb(72, 70, 70);
+    color: white;
+}
+.nav-icon-space{
+    margin-right: 8px;
+}
+
+.nav-link.active {
+  font-weight: 500;
+  color: black;
+}

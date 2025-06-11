@@ -1,0 +1,102 @@
+.item-card {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  align-items: flex-start;
+  gap: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.item-left img {
+  width: 110px;
+  /* height: 80px; */
+  display: flex;
+}
+
+.item-right {
+  flex: 1;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 8px;
+  margin-top: 50px;
+}
+
+.item-controls-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.item-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.qty-btn:hover {
+  background-color: #eee;
+}
+
+.qty-value {
+  font-size: 15px;
+}
+
+.item-price {
+  font-size: 14px;
+  color: #444;
+  margin: 7px;
+  font-weight: 700;
+}
+
+/* summery html */
+
+.summary-con{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.summary-line.total {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 16px;
+  padding: 10px;
+  background-color: #111827;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #1f2937;
+}
