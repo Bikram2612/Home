@@ -44,7 +44,8 @@ function render(products) {
         cart.push(item);
       }
       localStorage.setItem('cart', JSON.stringify(cart));
-      alert("Item added to cart!");
+      // alert("Item added to cart!");
+      location.reload();
     });
   });
 }
